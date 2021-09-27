@@ -1,6 +1,7 @@
 #include <iostream>
 #include <time.h>
 
+
 int soin(int pv_actuel, int vax)
 {
     pv_actuel = pv_actuel + vax;
