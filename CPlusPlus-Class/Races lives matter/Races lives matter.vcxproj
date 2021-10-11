@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{69c14756-52db-4920-be04-0951ab1e58b5}</ProjectGuid>
-    <RootNamespace>Exercices</RootNamespace>
+    <ProjectGuid>{8fe5c75b-2056-4fe9-937a-7741b1301a79}</ProjectGuid>
+    <RootNamespace>Raceslivesmatter</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,15 +139,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Apprenti_Hero.cpp" />
-    <ClCompile Include="banque_de_donnees.cpp" />
-    <ClCompile Include="Exercices.cpp" />
-    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="Black_Orc.cpp" />
+    <ClCompile Include="Boxer.cpp" />
+    <ClCompile Include="Class.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Human.cpp" />
+    <ClCompile Include="Orc.cpp" />
+    <ClCompile Include="Race.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Sniper.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Apprenti_Hero.h" />
-    <ClInclude Include="banque_de_donnees.h" />
-    <ClInclude Include="Stack.h" />
+    <ClInclude Include="Black_Orc.h" />
+    <ClInclude Include="Boxer.h" />
+    <ClInclude Include="Class.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Human.h" />
+    <ClInclude Include="Orc.h" />
+    <ClInclude Include="Race.h" />
+    <ClInclude Include="Sniper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

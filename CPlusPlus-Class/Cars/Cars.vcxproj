@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{69c14756-52db-4920-be04-0951ab1e58b5}</ProjectGuid>
-    <RootNamespace>Exercices</RootNamespace>
+    <ProjectGuid>{3925857a-3ec3-47f0-afe8-e5afb5d3d8c7}</ProjectGuid>
+    <RootNamespace>Cars</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,15 +139,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Apprenti_Hero.cpp" />
-    <ClCompile Include="banque_de_donnees.cpp" />
-    <ClCompile Include="Exercices.cpp" />
-    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="Bike.cpp" />
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="Flying_Vehicule.cpp" />
+    <ClCompile Include="Helicopter.cpp" />
+    <ClCompile Include="lib.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Motorbike.cpp" />
+    <ClCompile Include="Plane.cpp" />
+    <ClCompile Include="Vehicule.cpp" />
+    <ClCompile Include="Vehicule_Wheels.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Apprenti_Hero.h" />
-    <ClInclude Include="banque_de_donnees.h" />
-    <ClInclude Include="Stack.h" />
+    <ClInclude Include="Bike.h" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="Flying_Vehicule.h" />
+    <ClInclude Include="Helicopter.h" />
+    <ClInclude Include="lib.h" />
+    <ClInclude Include="Motorbike.h" />
+    <ClInclude Include="Plane.h" />
+    <ClInclude Include="Vehicule.h" />
+    <ClInclude Include="Vehicule_Wheels.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

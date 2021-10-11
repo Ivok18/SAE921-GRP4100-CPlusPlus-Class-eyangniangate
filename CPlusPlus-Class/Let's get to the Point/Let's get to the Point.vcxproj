@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{69c14756-52db-4920-be04-0951ab1e58b5}</ProjectGuid>
-    <RootNamespace>Exercices</RootNamespace>
+    <ProjectGuid>{645655ea-c9cd-41be-8b8e-eaa628af255e}</ProjectGuid>
+    <RootNamespace>LetsgettothePoint</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,15 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Apprenti_Hero.cpp" />
-    <ClCompile Include="banque_de_donnees.cpp" />
-    <ClCompile Include="Exercices.cpp" />
-    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Point.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Apprenti_Hero.h" />
-    <ClInclude Include="banque_de_donnees.h" />
-    <ClInclude Include="Stack.h" />
+    <ClInclude Include="Point.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

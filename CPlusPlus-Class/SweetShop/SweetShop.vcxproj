@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{69c14756-52db-4920-be04-0951ab1e58b5}</ProjectGuid>
-    <RootNamespace>Exercices</RootNamespace>
+    <ProjectGuid>{258c7119-993b-4a07-98c7-d09ee30e8c51}</ProjectGuid>
+    <RootNamespace>SweetShop</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,15 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Apprenti_Hero.cpp" />
-    <ClCompile Include="banque_de_donnees.cpp" />
-    <ClCompile Include="Exercices.cpp" />
-    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="another_lib.cpp" />
+    <ClCompile Include="Candy_Bag.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Apprenti_Hero.h" />
-    <ClInclude Include="banque_de_donnees.h" />
-    <ClInclude Include="Stack.h" />
+    <ClInclude Include="another_lib.h" />
+    <ClInclude Include="Candy_Bag.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

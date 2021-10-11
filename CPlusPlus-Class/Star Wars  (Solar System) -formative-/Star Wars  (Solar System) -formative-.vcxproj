@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{69c14756-52db-4920-be04-0951ab1e58b5}</ProjectGuid>
-    <RootNamespace>Exercices</RootNamespace>
+    <ProjectGuid>{4cd3616e-6f49-42b6-b403-c59e92c6e610}</ProjectGuid>
+    <RootNamespace>StarWarsSolarSystemformative</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,15 +139,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Apprenti_Hero.cpp" />
-    <ClCompile Include="banque_de_donnees.cpp" />
-    <ClCompile Include="Exercices.cpp" />
-    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="Astrobject.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Moon.cpp" />
+    <ClCompile Include="Planet.cpp" />
+    <ClCompile Include="SpaceShip.cpp" />
+    <ClCompile Include="SpaceShip_.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Apprenti_Hero.h" />
-    <ClInclude Include="banque_de_donnees.h" />
-    <ClInclude Include="Stack.h" />
+    <ClInclude Include="Astrobject.h" />
+    <ClInclude Include="Moon.h" />
+    <ClInclude Include="Planet.h" />
+    <ClInclude Include="SpaceShip.h" />
+    <ClInclude Include="SpaceShip_.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
