@@ -51,12 +51,15 @@ std::vector<std::string> create_names_bank()
 int main()
 {
 	
-	Apprenti_Hero manu("Muudo", "emmanuel", "Mixed Personnalities");
-	auto epreuves = manu.passer_epreuves();
 	
-	std::cout << epreuves.size();
 	
 }
+/*
+	Apprenti_Hero manu("Muudo", "emmanuel", "Mixed Personnalities");
+	auto epreuves = manu.passer_epreuves();
+
+	std::cout << epreuves.size();
+	*/
 /*
 1/ On voudrait gerer les apprentis heros d’une academie à l’aide d’une classe Apprenti_Hero définie par :
 

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Inventory">
+      <UniqueIdentifier>{e7bbf22b-036f-4ac5-ba4d-6e5caf9e8854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Inventory">
+      <UniqueIdentifier>{22549389-004f-4003-831d-f7c3d1b2fbf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Items">
+      <UniqueIdentifier>{37859a0e-caf1-4c2d-8993-9a6f5820264b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Items">
+      <UniqueIdentifier>{a1903ace-6e7a-4aad-b16c-557f2c2ce276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Items\Weapons">
+      <UniqueIdentifier>{a838d0c8-3696-4292-be8b-6bf0ec70b3d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Items\Weapons\Weapons Base Class">
+      <UniqueIdentifier>{4314218f-34bc-4adc-8770-0eeb49679e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Items\Potions">
+      <UniqueIdentifier>{6a2a3db8-fe70-44ec-96b2-ba6b58f8721f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Items\Potions\Potions Base Class">
+      <UniqueIdentifier>{951732e2-2528-41b6-a4f4-793f857e888d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Items\Weapons">
+      <UniqueIdentifier>{b7080e8f-5d05-4ceb-a746-f806d94c833c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Items\Weapons\Weapons Base Class">
+      <UniqueIdentifier>{0aa4af1a-e16b-4da6-9d4f-0f8a16b68b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Items\Potions">
+      <UniqueIdentifier>{e5b1b777-b52c-4998-8f4e-58197eb422ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Items\Potions\Potions Base Class">
+      <UniqueIdentifier>{5bc15678-93c0-456a-b6e0-ace5f24e6c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Items\Map">
+      <UniqueIdentifier>{46596e68-a2c2-40e3-8299-2c56152e9980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Items\Items Base Class">
+      <UniqueIdentifier>{e73e6420-8de6-4a77-bd4a-0fe9aed2bb86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Map">
+      <UniqueIdentifier>{37d3c73f-afa1-4d21-9d1d-e16a2f8d002b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Items\Potions\Health_Potion">
+      <UniqueIdentifier>{fcd5586b-a7a1-4d70-93d1-2dcf77251eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Items\Potions\Force_Potion">
+      <UniqueIdentifier>{67e42479-e591-4da4-93a4-81684801a692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Items\Items Base Class">
+      <UniqueIdentifier>{6d79b15d-3fcb-42e0-85f7-806344ff65ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Items\Potions\Health_Potion">
+      <UniqueIdentifier>{d25f6c44-4b8f-4473-b326-b9f447e36ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Items\Potions\Force_Potion">
+      <UniqueIdentifier>{5dbf91d8-2a7d-4125-b5ef-04826cb57f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Items\Weapons\Sword">
+      <UniqueIdentifier>{67a47a59-a658-4b8c-b8ae-163c690224aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Items\Weapons\Bow">
+      <UniqueIdentifier>{73b71656-c1b2-4e41-bf73-34680cd4019d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Fichiers sources\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Fichiers sources\Items\Items Base Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Potion.cpp">
+      <Filter>Fichiers sources\Items\Potions\Potions Base Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Fichiers sources\Items\Weapons\Weapons Base Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Fichiers sources\Items\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Health_Potion.cpp">
+      <Filter>Fichiers sources\Items\Potions\Health_Potion</Filter>
+    </ClCompile>
+    <ClCompile Include="Force_Potion.cpp">
+      <Filter>Fichiers sources\Items\Potions\Force_Potion</Filter>
+    </ClCompile>
+    <ClCompile Include="Bow.cpp">
+      <Filter>Fichiers sources\Items\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>Fichiers sources\Items\Weapons</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inventory.h">
+      <Filter>Fichiers d%27en-tête\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Fichiers d%27en-tête\Items\Items Base Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Potion.h">
+      <Filter>Fichiers d%27en-tête\Items\Potions\Potions Base Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Fichiers d%27en-tête\Items\Weapons\Weapons Base Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Fichiers d%27en-tête\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Health_Potion.h">
+      <Filter>Fichiers d%27en-tête\Items\Potions\Health_Potion</Filter>
+    </ClInclude>
+    <ClInclude Include="Force_Potion.h">
+      <Filter>Fichiers d%27en-tête\Items\Potions\Force_Potion</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>Fichiers d%27en-tête\Items\Weapons\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="Bow.h">
+      <Filter>Fichiers d%27en-tête\Items\Weapons\Bow</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

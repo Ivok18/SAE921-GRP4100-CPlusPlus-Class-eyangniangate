@@ -14,6 +14,7 @@ SpaceShip_::SpaceShip_()
 	planet_landed_on = Planet();
 	is_landing = false;
 	//nb_of_planets_landed_on = 0;
+	
 }
 
 SpaceShip_::SpaceShip_(std::string name_, std::string color_)

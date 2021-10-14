@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Races lives matter", "Races
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Star Wars  (Solar System) -formative-", "Star Wars  (Solar System) -formative-\Star Wars  (Solar System) -formative-.vcxproj", "{4CD3616E-6F49-42B6-B403-C59E92C6E610}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Invent Tory -formative-", "Invent Tory -formative-\Invent Tory -formative-.vcxproj", "{0A5409B9-A985-4732-8CB5-AD9FB97BA9CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{4CD3616E-6F49-42B6-B403-C59E92C6E610}.Release|x64.Build.0 = Release|x64
 		{4CD3616E-6F49-42B6-B403-C59E92C6E610}.Release|x86.ActiveCfg = Release|Win32
 		{4CD3616E-6F49-42B6-B403-C59E92C6E610}.Release|x86.Build.0 = Release|Win32
+		{0A5409B9-A985-4732-8CB5-AD9FB97BA9CC}.Debug|x64.ActiveCfg = Debug|x64
+		{0A5409B9-A985-4732-8CB5-AD9FB97BA9CC}.Debug|x64.Build.0 = Debug|x64
+		{0A5409B9-A985-4732-8CB5-AD9FB97BA9CC}.Debug|x86.ActiveCfg = Debug|Win32
+		{0A5409B9-A985-4732-8CB5-AD9FB97BA9CC}.Debug|x86.Build.0 = Debug|Win32
+		{0A5409B9-A985-4732-8CB5-AD9FB97BA9CC}.Release|x64.ActiveCfg = Release|x64
+		{0A5409B9-A985-4732-8CB5-AD9FB97BA9CC}.Release|x64.Build.0 = Release|x64
+		{0A5409B9-A985-4732-8CB5-AD9FB97BA9CC}.Release|x86.ActiveCfg = Release|Win32
+		{0A5409B9-A985-4732-8CB5-AD9FB97BA9CC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
